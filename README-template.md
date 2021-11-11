@@ -30,13 +30,7 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+I completed the css form to add the centering of the card. I adjusted the font and size of the cards. It was tricky to add the padding and margin to adjust little image. I also added the buttons. It was great to add the shadow of the button adn the card. It was tricky to add the radius of the picture above and bottom of the card. This tasks was completed about 2 hours on 1/10/2021. Pending to add the hovering effect to the button and add the mobile responsive effect. 
 
 ### Links
 
@@ -44,7 +38,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-
+I am applying as much as I remembered the steps in CSS. I do google remindere in WW3 site. 
 ### Built with
 
 - Semantic HTML5 markup
@@ -61,7 +55,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### What I learned
 
 I am using this challengest to reinforce my understanding my coding language. It is a great way to understand to complete project with one own basic understanding and searching abilities.
-I started this project on 11/6/2021. 
+I started this project on 11/6/2021. I am so proud to complete the commit and push in github.
 
 To see how you can add code snippets, see below:
 
