@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
 }
@@ -11,38 +12,84 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
     background-color: hsl(225, 100%, 94%);
-    
-}
-.main {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-top: 5rem;
+}
+
+#hero {
+    border-radius: 6% 6% 0 0;
 }
 
 .main-sec {
+    margin-top: 3rem;
+    border-radius: 5px solid red;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: #fff;
     max-width: 450px; 
     text-align: center;
-}
-
-.order {
-    
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgba(171, 176, 240, 0.7);
 }
 
 .order h1 {
     font-size: 2rem;
     font-weight: 700;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .order p {
-    padding: 1.5rem 5rem;
+    padding: 1rem 5rem;
 }
 
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.25rem;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.annual {
+    padding: 0 6rem 0 1rem;
+}
+
+.annual-plan {
+    font-weight: 800;
+}
+
+.year {
+    color: rgb(156, 148, 148);
+    font-weight: 700;
+}
+
+.change {
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.payment {
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    font-weight: 800;
+    padding: 15px 60px;
+    width: 80%;
+    margin: 1rem auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 15px 8px rgba(171, 176, 240, 0.7);
+}
+
+.cancel {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: rgb(156, 148, 148);
+    font-weight: 800;
+    border: none;
+    padding: 1rem 0 2rem;
+}
 
 .attribution { 
     font-size: 11px; 
