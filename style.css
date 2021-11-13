@@ -22,7 +22,7 @@ body {
 }
 
 .main-sec {
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -40,6 +40,7 @@ body {
 
 .order p {
     padding: 1rem 5rem;
+    color: rgb(156, 148, 148);
 }
 
 .plan {
@@ -90,7 +91,7 @@ body {
 
 .cancel {
     background-color: rgba(0, 0, 0, 0.0);
-    color: rgb(130, 90, 224);
+    color: rgb(135, 130, 146);
     font-weight: 800;
     border: none;
     padding: 1rem 0 3rem;
@@ -114,7 +115,19 @@ body {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-/* 
-@media screen (max-width: 450px) {
-    
-} */
+
+@media (max-width: 450px) {
+    .main-sec {
+        max-width: 350px; 
+        box-shadow: 5px 5px 5px rgba(171, 176, 240, 0.3);
+    }
+
+    .order p {
+        padding: 1rem 2.6rem;
+    }
+
+    .annual {
+        padding: 0 2.2rem 0 1rem;
+    }
+
+}
